@@ -1,0 +1,9 @@
+com\covid\service\Covid19Service.class
+com\covid\dto\District.class
+com\covid\DemoApplication.class
+com\covid\dto\State.class
+com\covid\service\Covid19ServiceImpl.class
+com\covid\dto\DistrictData.class
+com\covid\controller\Covid19Controller.class
+com\covid\dto\StateWiseCases.class
+com\covid\dto\Delta.class
