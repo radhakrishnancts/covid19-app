@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+covid19-api,com.covid.controller,Covid19Controller,0,7,0,0,0,2,0,2,0,2
+covid19-api,com.covid.service,Covid19ServiceImpl,24,172,1,7,3,46,1,6,0,3
+covid19-api,com.covid.dto,Delta,21,3,0,0,9,1,6,1,6,1
+covid19-api,com.covid.dto,State,27,25,0,0,11,11,8,7,8,7
+covid19-api,com.covid.dto,DistrictData,30,15,0,0,14,5,8,5,8,5
+covid19-api,com.covid.dto,StateWiseCases,0,38,0,0,0,16,0,11,0,11
+covid19-api,com.covid.dto,District,70,0,0,0,17,0,12,0,12,0
+covid19-api,com.covid,DemoApplication,21,44,0,0,7,10,4,3,4,3

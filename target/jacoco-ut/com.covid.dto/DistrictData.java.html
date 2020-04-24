@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DistrictData.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">covid19-api</a> &gt; <a href="index.source.html" class="el_package">com.covid.dto</a> &gt; <span class="el_source">DistrictData.java</span></div><h1>DistrictData.java</h1><pre class="source lang-java linenums">package com.covid.dto;
+
+import java.io.Serializable;
+
+<span class="fc" id="L5">public class DistrictData implements Serializable</span>
+{
+	 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+		private String district;
+	    private int recovered;
+	    private int deceased;
+	    private int active;
+	    private int confirmed;
+	    private Delta delta;
+	    
+		public String getDistrict() {
+<span class="nc" id="L19">			return district;</span>
+		}
+		public void setDistrict(String district) {
+<span class="nc" id="L22">			this.district = district;</span>
+<span class="nc" id="L23">		}</span>
+		public int getRecovered() {
+<span class="fc" id="L25">			return recovered;</span>
+		}
+		public void setRecovered(int recovered) {
+<span class="nc" id="L28">			this.recovered = recovered;</span>
+<span class="nc" id="L29">		}</span>
+		public int getDeceased() {
+<span class="fc" id="L31">			return deceased;</span>
+		}
+		public void setDeceased(int deceased) {
+<span class="nc" id="L34">			this.deceased = deceased;</span>
+<span class="nc" id="L35">		}</span>
+		public Delta getDelta() {
+<span class="nc" id="L37">			return delta;</span>
+		}
+		public void setDelta(Delta delta) {
+<span class="nc" id="L40">			this.delta = delta;</span>
+<span class="nc" id="L41">		}</span>
+		public int getActive() {
+<span class="fc" id="L43">			return active;</span>
+		}
+		public void setActive(int active) {
+<span class="nc" id="L46">			this.active = active;</span>
+<span class="nc" id="L47">		}</span>
+		public int getConfirmed() {
+<span class="fc" id="L49">			return confirmed;</span>
+		}
+		public void setConfirmed(int confirmed) {
+<span class="nc" id="L52">			this.confirmed = confirmed;</span>
+<span class="nc" id="L53">		}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>
