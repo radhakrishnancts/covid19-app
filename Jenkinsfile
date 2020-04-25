@@ -12,7 +12,7 @@ pipeline {
 		stage ('Testing Stage') {
 
             steps {
-                    sh 'mvn test'
+                    sh 'mvn test sonar:sonar'
             }
         }
 
