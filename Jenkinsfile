@@ -20,7 +20,7 @@ pipeline {
 
             steps {
                     sh 'mvn package'
-					sh 'mvn exec:java -Dexec.mainClass="com.covid.DemoApplication"'
+					sh 'mvn exec:java -Dexec.mainClass="com.covid"'
             }
         }
 
