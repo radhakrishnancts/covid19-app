@@ -15,6 +15,15 @@ pipeline {
                     sh 'mvn test sonar:sonar'
             }
         }
+		
+		stage ('Run') {
+
+            steps {
+                    sh 'mvn package'
+					sh 'mvn exec:java -Dexec.mainClass=com.covid'
+            }
+        }
+
 
     }
 	
