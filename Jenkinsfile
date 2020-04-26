@@ -16,15 +16,6 @@ pipeline {
             }
         }
 		
-		stage ('Run') {
-
-            steps {
-                    sh 'mvn package'
-					sh 'mvn exec:java -Dexec.mainClass="com.covid.DemoApplication"'
-            }
-        }
-
-
     }
 	
 	
